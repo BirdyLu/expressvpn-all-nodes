@@ -26,6 +26,7 @@ for i in "${alias_array[@]}"; do
 			#exit 1
 		else
 			expressvpn disconnect
+   			printf "$i, its start point is $counter, failed."
 		fi
 	fi
 	((counter++))
