@@ -3,7 +3,7 @@
 ## **This script does what?**
 Designed for Ubuntu. Not tried other platforms yet.
 
-It asks ExpressVpn to try to connect to each node automatically, free your hands. Very convinient for use especially if you're in China, as sometimes the connection will become very difficult to find a usable node. 
+It asks ExpressVpn to try to connect to each node automatically, free your hands. Very convinient for use especially if you're in China, as sometimes it's very difficult to find a usable node. 
 
 ## **Why use custom start point?**
 In case you've already tried some nodes or the script ended unexpectingly. 
