@@ -7,6 +7,6 @@ It asks ExpressVpn to try to connect to each node automatically, free your hands
 In case you've already tried some nodes or the script ended unexpectingly. 
 
 ## **How to run:**
-1. Open your terminal under the directory in which you store the file "expressvpn_connect_list.sh", or cd to the corresponding directory.
+1. Open your terminal under the directory in which you store the file "expressvpn_connect_all.sh", or cd to the corresponding directory.
 2. run `./expressvpn_connect_list.sh`
 3. Follow prompts
