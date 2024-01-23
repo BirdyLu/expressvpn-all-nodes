@@ -1,5 +1,7 @@
 # expressvpn-connect-all
 
+## **Designed for Ubuntu. Not tried otherplatforms yet.**
+
 ## **This script does what?**
 It asks ExpressVpn to try to connect to each node automatically, free your hands. Very convinient for use especially if you're in China, as sometimes the connection will become very difficult to find a usable node. 
 
