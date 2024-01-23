@@ -17,7 +17,7 @@ counter=0
 for i in "${alias_array[@]}"; do
 	if [ "$counter" -ge "$user_input" ]; then
 		expressvpn connect "$i"
-		status="$(expressvpn status | awk 'NR==1 {print $1}' | sed -r 's/\x1B\[([0-9]{1,2}(;[0-9]{1,2})?)?[mGK]//g' | tr -d '\n' | tail -c 9)"
+		status="$(expressvpn status | awk 'NR==1 {print $1}' | tr -d '\n' | tail -c 9)"
 		if [ "$status" == "Connected" ]; then
 			echo "$i"
 			exit 0
